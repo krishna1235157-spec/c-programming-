@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+ 
+ int a,b;
+ printf("enter no. of a :");
+ scanf("%d%d",&a,&b);
+ int r;
+ r = a%b ;
+ printf("remender:%d", r);
+ 
+
+
+
+
+
+  return 0;
+}
