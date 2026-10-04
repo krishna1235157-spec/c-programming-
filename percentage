@@ -1,0 +1,21 @@
+#include <stdio.h>
+ int main(){
+    int p;
+    printf("Enter the marks of Physics: ");
+    scanf("%d",&p);
+    int c;
+    printf("Enter the marks of Chemistry: ");
+    scanf("%d",&c);
+    int m;
+    printf("Enter the marks of Maths: ");
+    scanf("%d",&m);
+    int e;
+    printf("Enter the marks of English: ");
+    scanf("%d",&e);
+    int a;
+    printf("Enter the marks of artificial intelligence: ");
+    scanf("%d",&a);
+     float percentage = (p + c + m + e + a) /2.0 ;
+    printf("Percentage of the student is: %f\n", percentage);
+    return 0;
+ }
