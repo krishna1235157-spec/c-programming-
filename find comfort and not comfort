@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+ 
+float  a;
+scanf("%.1f",&a);
+if (20>=a&&a >=25.5){
+  printf("conform") ;
+}
+ else {
+  printf("not conform");
+ }
+
+  return 0;
+}
