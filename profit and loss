@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+ 
+ int x ,y;
+ printf("enter a cost price :");
+ 
+ scanf("%d",&x);
+ printf("enter a selling price :");
+ scanf("%d",&y);
+     if   (y-x>=0){
+          printf("profit :%d",y-x);
+      }
+     else   {
+            printf("loss :%d",y-x);
+      }
+  return 0;
+}
