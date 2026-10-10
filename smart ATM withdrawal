@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main(){
+   int n;
+   int p;
+   int A=10000;
+   printf("enter a pin:");
+   scanf("%d",&n);
+   printf("enter a amount:");
+   scanf("%d",&p);
+   if(n==1234){
+     if(p%10==0){
+        if (10000>=p){
+        printf("SUSSECFULLY DONE");
+        }
+        else {
+             printf("INVALIED AMOUNT\n");
+            printf("INSUFFICENT BALIANCE");
+        }
+    }
+    else {
+        printf("INVALIED AMOUNT  ");
+    }
+   }
+   else {
+    printf("INVALIED PIN  ");
+   }
+   return 0;
+}
