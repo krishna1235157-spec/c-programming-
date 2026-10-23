@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+
+   int f,d,n;
+   printf("enter a value of first term :");
+   scanf("%d",&f);
+   printf("enter a value of comman difference :");
+   scanf("%d",&d);
+   printf("enter a value of n:");
+   scanf("%d",&n);
+
+ if (f<=(f+(n-1)*d)){
+   for(int a=f;a<=(f+(n-1)*d);a=a+d){
+    printf("%d \n",a);
+   }
+}
+else {
+   for(int a=f;a>=(f+(n-1)*d);a=a+d){
+    printf("%d \n",a);
+   }
+}
+   return 0;
+}
